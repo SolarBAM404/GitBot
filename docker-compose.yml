@@ -1,0 +1,6 @@
+﻿services:
+  gitbot:
+    image: gitbot
+    build:
+      context: .
+      dockerfile: Dockerfile
